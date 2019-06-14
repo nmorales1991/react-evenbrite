@@ -5,7 +5,7 @@ const CategoriasContext = React.createContext()//se crea el context
 export const CategoriasConsumer = CategoriasContext.Consumer//este es el consumer y hay que importarlo siempre que se quiera acceder a los datos que se envían por el provider
 
 export default class CategoriasProvider extends Component {
-    token = 'OZD7AJB4KVDNTQI6JLT3'
+    token = 'xxxxxxxxxxxxxxxxxxxxxxx'
     state ={
         categorias:[]
     }

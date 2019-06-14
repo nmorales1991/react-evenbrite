@@ -5,7 +5,7 @@ const EventosContext = React.createContext()
 export const EventosConsumer = EventosContext.Consumer
 
 export default class EventosProvider extends Component {
-    token = 'OZD7AJB4KVDNTQI6JLT3'
+    token = 'xxxxxxxxxxxxxxxxxxxx'
     ordenar = 'date'
 
     state={
